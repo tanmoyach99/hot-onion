@@ -1,0 +1,19 @@
+.food-container img{
+    height: 250px;
+    
+    
+
+
+}
+.food-container{
+    float: left;
+    margin-top: 80px;
+    
+    
+    
+}
+.food-container a{
+    text-decoration: none;
+    color: black;
+}
+

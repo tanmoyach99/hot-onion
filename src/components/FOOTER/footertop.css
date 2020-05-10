@@ -1,0 +1,20 @@
+.footer-top-area {
+	background:black;
+}
+.img-area img {
+	width: 65%;
+}
+.footer-top-menu-aria {
+	justify-content: space-between;
+}
+.footer-top-menu-aria div ul  a{
+	font-size: 14px;
+	color: white;
+	line-height: 18px;
+}
+.footer-menu ul a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+
+}

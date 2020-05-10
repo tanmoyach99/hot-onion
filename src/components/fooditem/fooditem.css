@@ -1,19 +1,25 @@
+.container{
+    width: 100%;
+    margin-right: auto;
+}
 .food-container img{
     height: 250px;
+    display: column;
+
     
     
 
 
 }
 .food-container{
-    float: left;
+    
     margin-top: 80px;
-    
-    
+    float: left;
+    text-decoration: none;  
+    color: black;  
     
 }
-.food-container a{
-    text-decoration: none;
-    color: black;
+.food-container:hover{
+    box-shadow: 0 .5rem 1rem gainsboro;
 }
 

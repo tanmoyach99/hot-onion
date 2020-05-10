@@ -1,9 +1,11 @@
 import React from 'react';
 import logo from '../../images/logo2.png'
-import image from '../../images/bannerbackground.png'
 import './Header.css'
+import { NavLink } from 'react-router-dom';
+
 
 const Header = () => {
+
     return ( 
     
        <div>
@@ -11,18 +13,16 @@ const Header = () => {
               <nav>
                 <a href="/home"><img src={logo} alt=""/></a>
             
-                  <a className="title" href="/sign"><button className="btn-danger signUp"> Sign up</button> </a>
-                  <a className="title" href="/login">Login</a>
+                 <NavLink to="/sign"><button  className=" btn btn-danger signUp"> Sign up</button></NavLink> 
+                  <a className="login" href="/login">Login</a>
                 
               </nav>
             </div>
-            <div className="background-img1">
-                
-                <img src={image} alt=""/>
+          
             
                 
-                
-            </div>
+            
+           
        </div>
        
     );

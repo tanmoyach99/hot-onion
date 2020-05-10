@@ -1,0 +1,23 @@
+.col-md-6 img{
+    height: 450px;
+    margin-top: 200px;
+
+}
+.text{
+    margin-top: 200px;
+    
+    
+}
+.btn{
+    width: 100px;
+}
+.details:hover{
+    box-shadow: 0 .5rem 1rem yellowgreen;
+    
+}
+.details{
+    margin-top: 100px;
+    display: flex;
+    height: 800px;
+}
+
